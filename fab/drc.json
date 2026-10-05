@@ -1,0 +1,451 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-05T04:07:29",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [],
+    "source": "phone_robot.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 161.85
+                    },
+                    "uuid": "853e9c55-7f75-466d-8d40-72e0f6e1dceb"
+                },
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 162.7
+                    },
+                    "uuid": "e595a1cf-0a91-40a2-a9d7-751bddd3b2f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 161.85
+                    },
+                    "uuid": "853e9c55-7f75-466d-8d40-72e0f6e1dceb"
+                },
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 161.0
+                    },
+                    "uuid": "fc31bd38-a993-49ac-b50f-3437ba5ab49b"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 160.15
+                    },
+                    "uuid": "ca2e02ae-5ae0-4765-9775-8de073b6551c"
+                },
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 161.0
+                    },
+                    "uuid": "fc31bd38-a993-49ac-b50f-3437ba5ab49b"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 159.3
+                    },
+                    "uuid": "50ef689c-26c8-496c-bc95-af407ab140ab"
+                },
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 160.15
+                    },
+                    "uuid": "ca2e02ae-5ae0-4765-9775-8de073b6551c"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H1",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 195.35
+                    },
+                    "uuid": "bdfee349-2f24-4acb-9c2d-978a9b4ee898"
+                },
+                {
+                    "description": "NPTH pad of H1",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 196.2
+                    },
+                    "uuid": "fec9f410-6c6d-4058-bd7a-cd217cb86edf"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H1",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 194.5
+                    },
+                    "uuid": "5b883c6b-6ade-4b76-9c15-bf5559e01bc4"
+                },
+                {
+                    "description": "NPTH pad of H1",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 195.35
+                    },
+                    "uuid": "bdfee349-2f24-4acb-9c2d-978a9b4ee898"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H1",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 193.65
+                    },
+                    "uuid": "591e2fbd-7e8c-479c-81ed-f011ae305148"
+                },
+                {
+                    "description": "NPTH pad of H1",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 194.5
+                    },
+                    "uuid": "5b883c6b-6ade-4b76-9c15-bf5559e01bc4"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H1",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 192.8
+                    },
+                    "uuid": "2c78ed10-660d-432d-a630-75cdd7aa0bb6"
+                },
+                {
+                    "description": "NPTH pad of H1",
+                    "pos": {
+                        "x": 164.729,
+                        "y": 193.65
+                    },
+                    "uuid": "591e2fbd-7e8c-479c-81ed-f011ae305148"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H4",
+                    "pos": {
+                        "x": 144.731,
+                        "y": 198.35
+                    },
+                    "uuid": "63b06331-db19-4c51-aa99-684592bad4de"
+                },
+                {
+                    "description": "NPTH pad of H4",
+                    "pos": {
+                        "x": 143.881,
+                        "y": 198.35
+                    },
+                    "uuid": "7a9eee3d-d381-4046-ac80-7eeaa78b74e2"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H4",
+                    "pos": {
+                        "x": 144.731,
+                        "y": 198.35
+                    },
+                    "uuid": "63b06331-db19-4c51-aa99-684592bad4de"
+                },
+                {
+                    "description": "NPTH pad of H4",
+                    "pos": {
+                        "x": 145.581,
+                        "y": 198.35
+                    },
+                    "uuid": "799302f7-d59d-4720-af06-dda2e55f4e18"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H4",
+                    "pos": {
+                        "x": 146.431,
+                        "y": 198.35
+                    },
+                    "uuid": "381107d3-0317-4af5-9a7a-4ef6da84db8d"
+                },
+                {
+                    "description": "NPTH pad of H4",
+                    "pos": {
+                        "x": 145.581,
+                        "y": 198.35
+                    },
+                    "uuid": "799302f7-d59d-4720-af06-dda2e55f4e18"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H4",
+                    "pos": {
+                        "x": 146.431,
+                        "y": 198.35
+                    },
+                    "uuid": "381107d3-0317-4af5-9a7a-4ef6da84db8d"
+                },
+                {
+                    "description": "NPTH pad of H4",
+                    "pos": {
+                        "x": 147.281,
+                        "y": 198.35
+                    },
+                    "uuid": "fbad6e55-2cf1-41d4-a48d-d1f2bc21d93a"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 146.311,
+                        "y": 133.748
+                    },
+                    "uuid": "9cd7083b-3784-496b-be51-5cf2129aef1b"
+                },
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 147.161,
+                        "y": 133.748
+                    },
+                    "uuid": "aa4dfb05-1d9f-4d5b-a13d-36e73225422a"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 148.011,
+                        "y": 133.748
+                    },
+                    "uuid": "6a50e59d-2075-4a6b-826c-6ebdf0cd34c0"
+                },
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 147.161,
+                        "y": 133.748
+                    },
+                    "uuid": "aa4dfb05-1d9f-4d5b-a13d-36e73225422a"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 148.011,
+                        "y": 133.748
+                    },
+                    "uuid": "6a50e59d-2075-4a6b-826c-6ebdf0cd34c0"
+                },
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 148.861,
+                        "y": 133.748
+                    },
+                    "uuid": "c91ba802-20d1-46a7-8ff1-bcdc97da3442"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.3500 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 149.711,
+                        "y": 133.748
+                    },
+                    "uuid": "90b6e1a5-82a7-41d2-a7a5-af508eb91f58"
+                },
+                {
+                    "description": "NPTH pad of H3",
+                    "pos": {
+                        "x": 148.861,
+                        "y": 133.748
+                    },
+                    "uuid": "c91ba802-20d1-46a7-8ff1-bcdc97da3442"
+                }
+            ],
+            "severity": "warning",
+            "type": "hole_to_hole"
+        },
+        {
+            "description": "Footprint 'USB_C_Receptacle_HRO_TYPE-C-31-M-12' does not match copy in library 'Connector_USB'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 179.4,
+                        "y": 219.0
+                    },
+                    "uuid": "3f17ce03-b54f-4e48-9672-f5fe3fedfdbf"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Pad_D4.0mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint TP4",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 105.2
+                    },
+                    "uuid": "55102767-1a64-434a-8085-5c1f922f0d3e"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'USB_C_Receptacle_HRO_TYPE-C-31-M-12' does not match copy in library 'Connector_USB'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 106.6,
+                        "y": 219.0
+                    },
+                    "uuid": "cbff2e06-e919-4895-a6c6-f974d68691fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}

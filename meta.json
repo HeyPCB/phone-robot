@@ -1,0 +1,13 @@
+{
+ "slug": "phone-robot",
+ "title": "Bolt, the phone stand robot",
+ "hook": "A little robot that holds your phone, charges it, and peeks over the top to tell you how it's eating.",
+ "intro": "Bolt is a matte-black robot phone stand with gold eyes. Two kickstands snap out of its belly and slot through its hips; they become the hands your phone sits on, in landscape, leaning back at 70 degrees. Your charger plugs into its left foot and your phone's cable into its right: a 5 V USB-C pass-through that powers the phone port only when a phone is attached, offers the phone what the charger can give (up to 1.5 A), and measures the charge current. Its two RGB eyes peek over the phone and show it: orange and pulsing while the phone eats, green when it is full.",
+ "what": [
+  "**USB-C in:** a 5 V sink with 5.1k Rd; the CH32V003 reads the charger's advertised current on its CC lines.",
+  "**USB-C out:** a 5 V source with GPIO-driven Rp (22k for 1.5 A, 56k for default USB power), an AO3401A switch with soft start that turns on only after the phone's Rd is seen for 150 ms, and a 10k bleeder.",
+  "**Current:** 20 mOhm shunt and INA180A2 (gain 50), 1 V per amp into the ADC; over-current trips the port.",
+  "**Face:** two WS2812C-2020 eyes over the phone; the gold antenna ball is a capacitive touch pad for night mode.",
+  "**Stand:** two snap-out kickstands (four tabs, drilled mouse bites) through 1.85 mm slots; phones up to 12.5 mm thick; no PD, 5 V only (7.5 W)."
+ ]
+}
